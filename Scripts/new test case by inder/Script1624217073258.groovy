@@ -35,3 +35,34 @@ WebUI.click(findTestObject('Object Repository/inder test/Page_Facebook - Log In 
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.facebook.com/')
+
+WebUI.setText(findTestObject('Object Repository/inder test/Page_Facebook - Log In or Sign Up/input_Connect with friends and the world ar_a26e6d'), 
+    'inder12@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/inder test/Page_Facebook - Log In or Sign Up/input_Connect with friends and the world ar_060a06'), 
+    'GNJkfiiutxvpMsCp7Y6XAA==')
+
+WebUI.click(findTestObject('Object Repository/inder test/Page_Facebook - Log In or Sign Up/button_Log In'))
+
+WebUI.click(findTestObject('Object Repository/inder test/Page_Facebook - Log In or Sign Up/button_Yes, Continue'))
+
+WebUI.click(findTestObject('Object Repository/inder test/Page_Facebook - Log In or Sign Up/button_Yes, Continue'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.instagram.com/')
+
+WebUI.setText(findTestObject('Object Repository/test case2/Page_Instagram/input_Phone number, username, or email_username'), 
+    'inder@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/test case2/Page_Instagram/input_Password_password'), 'ArrdAOm72XXoWrJvL5V2hw==')
+
+WebUI.closeBrowser()
+
+WebUI.setEncryptedText(findTestObject('Object Repository/test case2/Page_Instagram/input_Password_password'), 'ArrdAOm72XUgxXoQNNgYsQ==')
+
